@@ -1,5 +1,5 @@
 #include <iostream>
-#include "..\\include/Decryptor.h"
+#include "..//include/Decryptor.h"
 
 int main() {
     using std::cout;

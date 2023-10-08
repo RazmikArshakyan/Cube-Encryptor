@@ -1,5 +1,5 @@
 #include "..//include/Decryptor.h"
-#include <sstream>
+#include "helper.cpp"
 
 void Decryptor::decrypt(std::string &enc, const std::string &key)
 {
@@ -14,17 +14,6 @@ void Decryptor::decrypt(std::string &enc, const std::string &key)
         enc += el.to_string();
     }
 } 
-
-std::vector<std::string> Decryptor::splitter(const std::string &text, char symbol)
-{
-    std::vector<std::string> tokens;
-    std::stringstream ss(text);
-    std::string token;
-    while (std::getline(ss, token, symbol)) {
-        tokens.push_back(token);
-    }
-    return tokens;
-}
 
 void Decryptor::cube_decryptor(Cube &cube, const std::string &key)
 {
