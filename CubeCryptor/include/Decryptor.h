@@ -15,4 +15,8 @@ private:
 
 };
 
+// #include "..//cpp/helper.cpp"
+// #include "..//cpp//Cube.cpp"
+// #include "..//cpp//Encryptor.cpp"
+// #include "..//cpp//Decryptor.cpp"
 #endif
