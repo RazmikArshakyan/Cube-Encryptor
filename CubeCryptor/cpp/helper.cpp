@@ -1,7 +1,5 @@
 #include "..//include/Cube.h"
 
-#include <vector>
-#include <string>
 #include <sstream>
 #include <random>
 

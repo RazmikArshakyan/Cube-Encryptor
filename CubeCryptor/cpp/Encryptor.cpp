@@ -1,5 +1,5 @@
 #include "..//include/Encryptor.h"  
-#include "helper.cpp"
+#include "..//include/helper.h"
 
 std::string Encryptor::encrypt(std::string& text)
 {

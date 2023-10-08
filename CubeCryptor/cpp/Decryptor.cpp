@@ -1,5 +1,5 @@
 #include "..//include/Decryptor.h"
-#include "helper.cpp"
+#include "..//include/helper.h"
 
 void Decryptor::decrypt(std::string &enc, const std::string &key)
 {
